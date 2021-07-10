@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types';
-import styles from './Statistics.module.css';
+import s from './Statistics.module.css';
 function StatisticItem({ label, percentage }) {
   return (
     <li
-      className={styles.item}
+      className={s.item}
       style={{
         backgroundColor: `rgba( ${random()} , ${random()} , ${random()} )`,
       }}
     >
-      <span className={styles.label}>{label}</span>
-      <span className={styles.percentage}>{percentage}%</span>
+      <span className={s.label}>{label}</span>
+      <span className={s.percentage}>{percentage}%</span>
     </li>
   );
 }

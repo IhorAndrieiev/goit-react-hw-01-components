@@ -1,18 +1,18 @@
 import PropTypes from 'prop-types';
 import defaultImage from '../default.jpg';
-import styles from './FriendList.module.css';
+import s from './FriendList.module.css';
 
 const Friend = ({ status, avatar, name }) => {
   return (
-    <li className={styles.item}>
-      <span className={status ? styles.statusOn : styles.statusOff}></span>
+    <li className={s.item}>
+      <span className={status ? s.statusOn : s.statusOff}></span>
       <img
-        className={styles.avatar}
+        className={s.avatar}
         src={avatar ?? defaultImage}
         alt="Аватар пользователя"
         width="48"
       />
-      <p className={styles.name}>{name}</p>
+      <p className={s.name}>{name}</p>
     </li>
   );
 };
