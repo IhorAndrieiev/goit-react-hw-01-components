@@ -1,0 +1,53 @@
+.item {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px 1px rgba(34, 60, 80, 0.4);
+}
+.status {
+  margin-right: 10px;
+}
+.statusOn {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+
+  background-color: green;
+  border-radius: 50%;
+}
+.statusOff {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+
+  background-color: red;
+  border-radius: 50%;
+}
+.avatar {
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.friendList {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: rgb(245, 240, 240);
+}
