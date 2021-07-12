@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import defaultImage from '../default.jpg';
-import s from './FriendList.module.css';
+import s from './Friend.module.css';
 
 const Friend = ({ status, avatar, name }) => {
   return (
